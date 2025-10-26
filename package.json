@@ -14,6 +14,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/cookie-parser": "^1.4.10",
     "@types/express-session": "^1.18.2",
     "@types/react": "^19.2.2",
@@ -23,7 +24,9 @@
   },
   "dependencies": {
     "@nestjs-modules/mailer": "^2.0.2",
+    "@nestjs/common": "^11.1.7",
     "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.7",
     "@nestlab/google-recaptcha": "^3.10.0",
     "@prisma/client": "^6.18.0",
     "@react-email/components": "^0.5.7",
