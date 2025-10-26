@@ -2,7 +2,10 @@
   "name": "StockMarket",
   "scripts": {
     "build": "babel src -d lib",
-    "prebuild": "jest"
+    "prebuild": "jest",
+    "dev:client": "yarn --cwd client dev",
+    "dev:server": "yarn --cwd server start:dev",
+    "dev": "concurrently \"yarn dev:client\" \"yarn dev:server\""
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -11,6 +14,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "prisma": "^6.18.0"
   },
   "dependencies": {
