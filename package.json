@@ -23,7 +23,7 @@
     "prisma": "^6.18.0"
   },
   "dependencies": {
-    "@nestjs-modules/mailer": "^2.0.2",
+    "@nestjs-modules/mailer": "^2.0.1",
     "@nestjs/common": "^11.1.7",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.7",
